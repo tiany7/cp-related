@@ -4,6 +4,7 @@ I sorted out some of the questions you had just now and put them here. If you ha
 
 - [ ] [codeforces related]
 - [ ] [Language-related issues]
+- [ ] [Online Judge related]
 - [ ] [TA-related issues]
 
 ## Syllabus related questions
@@ -170,6 +171,65 @@ I suggest you refer to [This article](https://blog.csdn.net/m0_50917429/article/
 In terms of efficiency, buffered reader is slower than stream tokenizer
 
 ** Again, language is not the focus of this lesson, don't get entangled! ! **
+
+# Online Judge related questions
+Under the ICPC competition system, there are 9-13 algorithm problems in each game, and you need to solve some problems. Each problem has a time limit and a space limit. You need to use as little space as possible to solve the problem within the specified time . These questions will be submitted to oj, and oj will judge whether your code is correct based on your code. If it is correct, you can get a certain score.
+If you make a mistake, you will have a penalty time. When sorting, you will sort according to the penalty time. For the same number of questions, the less penalty time, the higher the ranking.
+
+### Wrong Answer (WA)
+If the result output by your code is different from the result on oj, Wrong Answer will appear. In this case, you need to check your code carefully to see if there is something wrong.
+
+Common problems are:
+1. Algorithm error
+2. Debug traces are not deleted
+3. The 32-bit int exploded during the calculation
+
+### Time Limit Exceeded (TLE)
+If the running time of your code exceeds the time limit of the topic, Time Limit Exceeded will appear. In this case, you need to check your code carefully to see if there is something wrong.
+
+Generally speaking, this is because the complexity of your algorithm is not good enough, and the calculation is repeated too many times, resulting in too long running time.
+
+But the probabilistic complexity is correct, but because the constant is too large, it is necessary to consider optimizing the writing method at this time, such as using an array instead of map, using scanf instead of cin, using printf instead of cout, and so on.
+
+The calculations that a machine can do in 1 second are about 1e7-1e8 times. You can know the approximate complexity according to the range of input data.
+
+corresponding form
+
+| Data Range | Complexity |
+| --- | --- |
+| 100-500 |O(n^3) |
+| 500-1000 |O(n^2) |
+| 1e5 | O(n) |
+| 1e6 | O(n or nlgn) |
+| 1e7 | O(n) |
+| 1e8 - 1e18 | O(1) or O(lgn) |
+
+
+### Memory Limit Exceeded (RE)
+If your code running space exceeds the space limit of the topic, Memory Limit Exceeded will appear.
+
+### Runtime Error (RE)
+If there is a runtime error in your code, a Runtime Error will appear. In this case, you need to carefully check your code to see if there is something wrong.
+
+Common problems are:
+- divisor is 0
+- array out of bounds
+- Too many layers of recursion
+- burst 32-bit int
+
+### Accepted (AC)
+If your code runs correctly, Accepted will appear, congratulations, your code has passed all the test cases.
+
+### What is Online Judge?
+Online Judge, referred to as OJ, is an online evaluation system that can be used to evaluate the correctness of programs, generally used to evaluate the running time and running space of programs.
+
+Common OJs are:
+- [Codeforces] (codeforces.com)
+- [Codechef](codechef.com)
+- [AtCoder] (atcoder.jp)
+- [TopCoder](topcoder.com)
+- [LeetCode](leetcode.com)
+- [vjudge](vjudge.net) (you can find most oj entries here)
 
 # TA related
 

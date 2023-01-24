@@ -3,9 +3,11 @@ For English version, please click this [link](https://github.com/tiany7/cp-relat
 
 我整理了刚才大家的一些问题，放到了这里。大家有问题可以先来文档找找，如果没有的话可以在群里提问或者私聊TA
 
-- [ ] [codeforces相关](#如何在本地调试代码)
-- [ ] [语言相关问题](#如何在本地调试代码)
-- [ ] [TA 相关问题](#如何在本地调试代码)
+- [ ] [codeforces相关]
+- [ ] [语言相关问题]
+- [ ] [Online Judge相关问题]
+- [ ] [TA 相关问题]
+
 
 ## Syllabus相关的问题
 这个建议查阅syllabus，去discord或者ed(后面会开)问，让更多的同学看到，大家可能也有一样的问题。
@@ -171,6 +173,65 @@ java原生的输入输出方式是Scanner和System.out.println，这两个函数
 效率上buffered reader比stream tokenizer要慢一点
 
 **再次强调一下语言不是这节课的重点，不要纠结！！**
+
+# Online Judge 相关问题
+ICPC赛制下，每场比赛有9-13道算法题，需要你去解决一些问题，每道题有一个时间限制和空间限制，你需要在规定的时间内，用尽可能少的空间来解决问题。这些题目会被提交到oj上，oj会根据你的代码来判断你的代码是否正确，如果正确，你就可以得到一定的分数。
+如果错误，你会有罚时，排序的时候会根据罚时来排序，同样题数，罚时越少，排名越靠前。
+
+### Wrong Answer (WA)
+如果你的代码输出的结果和oj上的结果不一样，就会出现Wrong Answer，这种情况下，你需要仔细检查你的代码，看看是不是哪里出了问题。
+
+常见的问题有：
+1. 算法错误
+2. debug痕迹没删掉
+3. 在计算过程中爆了32位int
+
+### Time Limit Exceeded (TLE)
+如果你的代码运行时间超过了题目的时间限制，就会出现Time Limit Exceeded，这种情况下，你需要仔细检查你的代码，看看是不是哪里出了问题。
+
+一般来说，这个是你算法的复杂度不够优秀，重复计算了太多次，导致运行时间过长。
+
+但是有概率复杂度正确，但是因为常数太大，这个时候就要考虑优化写法了，比如用数组代替map，用scanf代替cin，用printf代替cout等等。
+
+一台机子1s能做的运算大概是1e7-1e8次的级别，大家根据输入的数据范围可以得知大概的复杂度。
+
+对应的表格
+
+| 数据范围 | 复杂度 |
+| --- | --- |
+| 100-500 |O(n^3) |
+| 500-1000 |O(n^2) |
+| 1e5 | O(n) |
+| 1e6 | O(n or nlgn) |
+| 1e7 | O(n) |
+| 1e8 - 1e18 | O(1) or O(lgn) |
+
+
+### Memory Limit Exceeded (RE)
+如果你的代码运行空间超过了题目的空间限制，就会出现Memory Limit Exceeded。
+
+### Runtime Error (RE)
+如果你的代码运行出现了运行时错误，就会出现Runtime Error，这种情况下，你需要仔细检查你的代码，看看是不是哪里出了问题。
+
+常见的问题有：
+- 除数为0
+- 数组越界
+- 递归层数太多
+- 爆32位int
+
+### Accepted (AC)
+如果你的代码运行正确，就会出现Accepted，恭喜你，你的代码通过了所有的测试用例。
+
+### 什么是Online Judge?
+Online Judge，简称OJ，是一个在线的评测系统，可以用来评测程序的正确性，一般用来评测程序的运行时间和运行空间。
+
+常见的OJ有：
+- [Codeforces](codeforces.com)
+- [Codechef](codechef.com)
+- [AtCoder](atcoder.jp)
+- [TopCoder](topcoder.com)
+- [LeetCode](leetcode.com)
+- [vjudge](vjudge.net) (这里可以找到大部分oj的入口)
 
 # TA相关
 
