@@ -157,6 +157,7 @@ C++的输入输出方式是cin和cout，这两个函数的缺点是：因为C的
 ```cpp
 ios::sync_with_stdio(false);
 cout.tie(nullptr);
+cin.tie(nullptr);
 ```
 
 另外每次使用endl的时候，都会刷新缓冲区，所以我们可以用'\n'来代替endl，这样可以减少很多时间消耗。
