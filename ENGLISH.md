@@ -2,9 +2,9 @@
 
 I sorted out some of the questions you had just now and put them here. If you have any questions, you can go to the document to find them first. If you don’t have any, you can ask questions in the group or chat with TA privately.
 
-- [ ] [codeforces related](#How to debug code locally)
-- [ ] [Language-related issues](#How to debug code locally)
-- [ ] [TA-related issues](#How to debug code locally)
+- [ ] [codeforces related]
+- [ ] [Language-related issues]
+- [ ] [TA-related issues]
 
 ## Syllabus related questions
 This suggestion is to consult syllabus, go to discord or ed (will be opened later) to ask, so that more students can see that everyone may have the same problem.
