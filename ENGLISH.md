@@ -155,7 +155,7 @@ Regarding this problem, we can solve it by turning off synchronization, you just
 
 ```cpp
 ios::sync_with_stdio(false);
-cout. tie(0);
+cout. tie(nullptr);
 ```
 
 In addition, every time endl is used, the buffer will be refreshed, so we can use '\n' instead of endl, which can reduce a lot of time consumption.
