@@ -1,4 +1,5 @@
 # Competitive Programming 相关问题（持续更新）
+For English version, please click this [link](https://github.com/tiany7/cp-related/blob/main/ENGLISH.md)
 
 我整理了刚才大家的一些问题，放到了这里。大家有问题可以先来文档找找，如果没有的话可以在群里提问或者私聊TA
 
