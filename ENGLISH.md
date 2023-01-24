@@ -106,7 +106,7 @@ Advantages of C++
 - Most of the online competition solutions are written by cpp
 - Can play tricks
 
-###Python
+### Python
 
 
 So what are the advantages of python?
