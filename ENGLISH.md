@@ -21,28 +21,28 @@ In the contest tab, you can see that there are many upcoming contests at the top
 
 ![image](https://user-images.githubusercontent.com/46698520/214207912-7459293d-6172-44b3-addf-2d8c0de0be3a.png)
 
-These competitions with the label of div X are all considered as live contests, where X is the difficulty of the competition, the higher the level, the easier it is. Everyone can choose the game according to their own level.
+These competitions with the label of div X are all considered as live contests, where X is the difficulty of the competition, the higher the level, the easier it is. Everyone can choose the contest according to their own level.
 
 The recommended ones are div2 and div3. The title of div3 is much simpler than that of div2. If you think div2 is too difficult, you can go to div3 to practice first.
 
 ### 2. How to calculate live?
 
-Each game has a game time written in the above picture, and the general div2 is about 2-2.5 hours. **Only if you participate in the game within the marked time will it be counted as live! **
+Each contest has a contest time written in the above picture, and the general div2 is about 2-2.5 hours. **Only if you participate in the contest within the marked time will it be counted as live! **
 
-After the game, you can click on virtual participation. This is a simulation of past games. It will replay the situation and results submitted by the contestants at that time. The simulation is really a game.
+After the contest, you can click on virtual participation. This is a simulation of past contests. It will replay the situation and results submitted by the contestants at that time. The simulation is really a contest.
 
 This is not a live contest, but it is a good contact tool for students who want to improve.
 
 ### 3. Where to look at the score that yongwham said
 
-Each question will have a problem tag, and there will be a score tag after the game, which means that about 50% of the people in this segment have solved it. The score is calculated according to this tag
+Each question will have a problem tag, and there will be a score tag after the contest, which means that about 50% of the people in this segment have solved it. The score is calculated according to this tag
 
 ![image](https://user-images.githubusercontent.com/46698520/214210016-69ffc500-6150-4d45-9f6d-9bc290c2404b.png)
 
 1-2 days after each competition ends, the problem tag will be updated to the title, and the title will be added to the gym
 
 ### 4. What is the rating?
-Rating is the score of cf, the initial score is 0, there will be a bonus point in the first 6 games, and the score will be scored normally in the subsequent games
+Rating is the score of cf, the initial score is 0, there will be a bonus point in the first 6 contests, and the score will be scored normally in the subsequent contests
 
 Each question made has an initial score, which decreases over time, and each error after test case 2 will have a penalty, which will be subtracted from the final score
 
@@ -50,7 +50,7 @@ The difficulty of the questions in cf generally increases gradually from A to F,
 
 There will be a change in rating after 1-2 days after each competition. This is calculated based on your score + the relative position of other people's scores. You can check your own rating change.
 
-Score calculation is very metaphysical. You can download carrot in the chrome plug-in market. This plug-in can help you calculate the approximate score during the game.
+Score calculation is very metaphysical. You can download carrot in the chrome plug-in market. This plug-in can help you calculate the approximate score during the contest.
 
 The names of different rating handles will have different colors
 
@@ -60,9 +60,9 @@ Don't submit, it won't be counted. Once submitted, it will be added to the scori
 
 ### 6. Can I do cf in a group of three?
 
-No, the cf competition is an individual competition, and discussion and communication are prohibited. If someone is found to communicate or copy other people's answers, cf will be punished with 0 points for the game on the spot - the punishment varies from title to title. It is also forbidden to exchange codes during the game in the group.
+No, the cf competition is an individual competition, and discussion and communication are prohibited. If someone is found to communicate or copy other people's answers, cf will be punished with 0 points for the contest on the spot - the punishment varies from title to title. It is also forbidden to exchange codes during the contest in the group.
 
-Doing questions by multiple people will not help everyone to improve, and everyone can discuss after the game.
+Doing questions by multiple people will not help everyone to improve, and everyone can discuss after the contest.
 
 ### 7. Can I view other people's code in the competition?
 Same as above, if it is found, it will be processed with 0 points.
@@ -75,7 +75,7 @@ Go to standing and click on the problem score, and you can see other people's co
 
 ![image](https://user-images.githubusercontent.com/46698520/214211232-17f3e60e-6776-4697-8b77-058a542c9448.png)
 
-### 9. Where can I see the solution after the game?
+### 9. Where can I see the solution after the contest?
 
 ![image](https://user-images.githubusercontent.com/46698520/214211277-b2487c83-ebad-4a53-a8ba-7ad6acc7021f.png)
 
@@ -141,7 +141,7 @@ Here we will only use process-oriented features, so the cost of switching to cpp
 
 Input and output refer to the way a program interacts with the outside world. For example, when we type on a computer, this process is input, and the words we see are output. In the program, the input and output are the same. We let the program read the data through the input, and then let the program output the data to the screen through the output.
 
-All data in the game will be input into the program through stdin, and then the program will output the result to stdout, so that the correctness of the program can be judged through oj.
+All data in the contest will be input into the program through stdin, and then the program will output the result to stdout, so that the correctness of the program can be judged through oj.
 
 ### 2. Why do we need to process input and output?
 
