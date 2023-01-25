@@ -34,7 +34,7 @@ After the contest, you can click on virtual participation. This is a simulation 
 
 This is not a live contest, but it is a good contact tool for students who want to improve.
 
-### 3. Where to look at the score that yongwham said
+### 3. Where to look at the score that Professor Lim said
 
 Each question will have a problem tag, and there will be a score tag after the contest, which means that about 50% of the people in this segment have solved it. The score is calculated according to this tag
 
