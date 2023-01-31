@@ -247,7 +247,7 @@ You can achieve this with the following code
 #define FOPEN freopen("your data file", "rt", stdin)
 
 int main(){
-#ifdef ONLINE_JUDGE
+#ifndef ONLINE_JUDGE
     ios::sync_with_stdio(false);
     cin.tie(0);
     FOPEN;
