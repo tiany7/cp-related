@@ -233,6 +233,33 @@ Online Judge，简称OJ，是一个在线的评测系统，可以用来评测程
 - [LeetCode](leetcode.com)
 - [vjudge](vjudge.net) (这里可以找到大部分oj的入口)
 
+# CP template
+
+每个OJ都会有一些自定义的宏变量，比如ONLINE_JUDGE，这个宏变量在OJ上会被定义，而在本地编译器上不会被定义，这个宏变量可以用来判断当前代码是在OJ上运行还是在本地编译器上运行。
+
+然后我们可以利用cpp的条件编译来实现一些快捷的小功能，比如每次你测试数据的时候都需要手动输入数据，并且clion的回显会导致你的输入混杂在输出里面
+
+那么现在就不需要这样了
+
+你可以用下面的代码来实现
+
+```cpp
+#define FOPEN freopen("your data file", "rt", stdin)
+
+int main(){
+#ifdef ONLINE_JUDGE
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    FOPEN;
+#endif
+    return 0;
+}
+```
+
+这样就可以在本地用文件输入输出流读入数据，而在oj是用标准输入输出流来读数据
+
+
+
 # TA相关
 
 如果有不会的问题，可以在群里问，群内有好几位经验丰富的同学，大家会尽力解答每一个问题。

@@ -5,6 +5,7 @@ I sorted out some of the questions you had just now and put them here. If you ha
 - [ ] [codeforces related]
 - [ ] [Language-related issues]
 - [ ] [Online Judge related]
+- [ ] [cp tricks]
 - [ ] [TA-related issues]
 
 ## Syllabus related questions
@@ -230,6 +231,30 @@ Common OJs are:
 - [TopCoder](topcoder.com)
 - [LeetCode](leetcode.com)
 - [vjudge](vjudge.net) (you can find most oj entries here)
+
+
+# CP template
+
+Each OJ will have some custom macro variables, such as ONLINE_JUDGE, this macro variable will be defined on OJ, but will not be defined on the local compiler, this macro variable can be used to determine whether the current code is running on OJ Or run on the native compiler.
+
+Then we can use cpp's conditional compilation to implement some quick small functions, such as every time you test data, you need to manually input data, and the echo of clion will cause your input to be mixed in the output
+
+then there is no need for this now
+
+You can achieve this with the following code
+
+```cpp
+#define FOPEN freopen("your data file", "rt", stdin)
+
+int main(){
+#ifdef ONLINE_JUDGE
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    FOPEN;
+#endif
+    return 0;
+}
+```
 
 # TA related
 
